@@ -17,13 +17,13 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           USERS.map((userdata,index)=>{
            const {name,age,city,avatar} = userdata;
 
-           return <div className="m-6 w-[390px] flex flex-row bg-emerald-100">
-            <img src={avatar} alt="img" className="w-[50px] rounded-full"/>
+           return <div className="m-6 w-97.5 flex flex-row bg-emerald-100">
+            <img src={avatar} alt="img" className="w-12.5 rounded-full"/>
             <div className="ml-6"> 
             <p><b>{name}</b></p>
             <div className="flex justify-around">
-            <p className="flex justify-center align-center"><MoveUpIcon className="h-[18px]"/>{age}</p>
-            <p className="flex justify-center  align-center ml-10"><MapPinIcon className="h-[20px]"/>{city}</p>
+            <p className="flex justify-center align-center"><MoveUpIcon className="h-4.5"/>{age}</p>
+            <p className="flex justify-center  align-center ml-10"><MapPinIcon className="h-5"/>{city}</p>
             </div>
             </div>
              </div>
